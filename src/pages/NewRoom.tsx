@@ -1,4 +1,4 @@
-import { useState, useContext, FormEvent } from 'react';
+import { useState, FormEvent } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import illustrationImg from '../assets/images/illustration.svg';
