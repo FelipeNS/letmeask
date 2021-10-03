@@ -9,7 +9,7 @@ import { AdminRoom } from './pages/AdminRoom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/letmeask">
       <AuthContextProvider>
         <Switch>
           <Route path="/" exact component={Home} />
